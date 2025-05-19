@@ -1,6 +1,6 @@
 echo off
 echo Downloading the Language model...
-echo wget https://hf-mirror.com/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q8_0.gguf -nv --show-progress
+wget.exe https://hf-mirror.com/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q8_0.gguf -nv --show-progress
 echo Unzipping the llama.cpp binaries...
 tar -xf llama-b5410-bin-win-cpu-x64.zip
 echo Creating Virtual environment
